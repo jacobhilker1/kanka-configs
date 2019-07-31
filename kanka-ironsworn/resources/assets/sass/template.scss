@@ -1,0 +1,47 @@
+$red: #822522;
+.attribute-layout-dnd5e {
+  background-color: rgba(250, 230, 165, 1);
+  padding: 10px;
+  color: #000;
+
+  .skills, .first, .attributes {
+    color: $red !important;
+  }
+
+  .abilities, .actions, .reactions, .legendary {
+    br {
+      margin-bottom: 10px;
+    }
+  }
+  .actions, .abilities {
+    strong {
+      font-style: italic;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: #000;
+  }
+
+  h3 {
+    margin: 5px 0;
+    color: $red !important;
+  }
+  h4 {
+    font-size: .529cm;
+    border-bottom: 2px solid $red;
+    color: $red !important;
+  }
+  h5 {
+    font-size: 0.35cm;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: $red !important;
+  }
+  hr {
+    border-bottom: 5px solid $red;
+    margin: 2px 0 7px 0;
+  }
+}
+
